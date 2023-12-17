@@ -21,7 +21,7 @@ public class BookController {
     }
 
     @RequestMapping
-    public ResponseEntity<?> listAll() {
+    public ResponseEntity<?> findAll() {
         log.info("Book list has been requested.");
         return ResponseEntity.ok(this.bookService.findAll());
     }

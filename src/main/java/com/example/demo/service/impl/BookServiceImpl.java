@@ -22,14 +22,14 @@ public class BookServiceImpl implements BookService {
                         "ele aos poucos pode contar com outros hobbits, " +
                         "um elfo, um anão, dois humanos e um mago, " +
                         "totalizando nove seres que formam a Sociedade do Anel."));
-        list.add(new BookResponse(1L, "DUNA",
+        list.add(new BookResponse(2L, "DUNA",
                 "Here is the novel that will be forever considered a triumph of the imagination." +
                         "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, who would become the"
                         +
                         "mysterious man known as Muad'Dib.He would avenge the traitorous plot against his noble family--and would bring "
                         +
                         "to fruition humankind's most ancient and unattainable dream."));
-        list.add(new BookResponse(1L, "O HOBBIT",
+        list.add(new BookResponse(3L, "O HOBBIT",
                 "TESTE"));
         return list;
     }

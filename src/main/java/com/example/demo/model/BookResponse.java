@@ -1,17 +1,5 @@
 package com.example.demo.model;
 
+public record BookResponse (Long id, String title, String description){
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
-public class BookResponse {
-    Long id;
-    String title;
-    String description;
 }
